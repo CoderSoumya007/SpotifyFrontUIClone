@@ -1,0 +1,461 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify-Play your favourite Songs</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/logo.png" type="logo.png" />
+
+  <!-- for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="top">
+    <nav class="nav">
+      <ul>
+        <li class="image">
+          <img src="./Resources/logo.png" alt="spotify" />Spotify
+        </li>
+        <li>Home</li>
+        <li>favourites</li>
+        <li>Sign up</li>
+        <li>Log in</li>
+        <li>About us</li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="sidecontent">
+      <div class="topicon">
+        <div class="search">
+          <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/home.png" alt="" />Home
+        </div>
+        <div class="search">
+          <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/search.png" alt="" />Search
+        </div>
+      </div>
+
+      <div class="library">
+        <div class="libraryupper">
+          <div class="librarytop">
+            <div class="search" id="lib">
+              <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/playlist.png" alt="" />
+              <p>Your Library</p>
+            </div>
+            <div class="search" id="plus">
+              <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/plus.png" alt="" />
+            </div>
+            <div class="search" id="arrow">
+              <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/boxes.png" alt="" />
+            </div>
+          </div>
+
+          <div class="low">
+            <div class="chip">Playlist</div>
+            <div class="chip">Artists</div>
+            <div class="chip">Podcasts & Shows</div>
+          </div>
+        </div>
+
+        <div class="librarylower">
+          <div class="librarylowtop">
+            <div class="recent">
+              <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/search.png" alt="" />
+            </div>
+            <div class="recent">
+              <label for="sort"><img
+                  src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/setting.png" alt="" /></label>
+              <!-- <select name="sort" id="sort">
+                                <option value="recent">Recent</option>
+                                <option value="recentlyAdded">Recently Added</option>
+                                <option value="Alphabetical">Alphabetical</option>
+                                <option value="Creator">Creator</option>
+                            </select> -->
+            </div>
+          </div>
+
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+
+          <!-- Repeated Albums -->
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix1.jpeg" alt="can't load" />
+            <div class="coverscript">
+              <div class="albumname">Workout</div>
+              <p>Playlist &#x2022; Spotify</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="maincontent">
+      <div class="maincontenthead">
+        <div class="left">
+          <div class="search">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/back_navigation.png" alt="" />
+          </div>
+          <div class="search">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/forward_navigation.png"
+              alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <div class="chip">Explore Premium</div>
+          <div class="chip">Install App</div>
+        </div>
+      </div>
+
+      <div class="maincontentfooter">
+        <h1>Good Evening</h1>
+        <div class="rowcards">
+          <div class="cardcontainer">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix2.jpeg"
+              alt="noImageFound" />
+            <p class="cardname">Album Name</p>
+            <p class="carddescription">
+              Pritam, Armaan Malik, Atif Aslam and more
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix2.jpeg"
+              alt="noImageFound" />
+            <p class="cardname">Album Name</p>
+            <p class="carddescription">
+              Pritam, Armaan Malik, Atif Aslam and more
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix2.jpeg"
+              alt="noImageFound" />
+            <p class="cardname">Album Name</p>
+            <p class="carddescription">
+              Pritam, Armaan Malik, Atif Aslam and more
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix2.jpeg"
+              alt="noImageFound" />
+            <p class="cardname">Album Name</p>
+            <p class="carddescription">
+              Pritam, Armaan Malik, Atif Aslam and more
+            </p>
+          </div>
+          <div class="cardcontainer">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix2.jpeg"
+              alt="noImageFound" />
+            <p class="cardname">Album Name</p>
+            <p class="carddescription">
+              Pritam, Armaan Malik, Atif Aslam and more
+            </p>
+          </div>
+        </div>
+
+        <h1>Good Evening</h1>
+        <div class="rowcards">
+          <div class="cardcontainer">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix2.jpeg"
+              alt="noImageFound" />
+            <p class="cardname">Album Name</p>
+            <p class="carddescription">
+              Pritam, Armaan Malik, Atif Aslam and more
+            </p>
+          </div>
+        </div>
+        <h1>Good Evening</h1>
+        <div class="rowcards">
+          <div class="cardcontainer">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix2.jpeg"
+              alt="noImageFound" />
+            <p class="cardname">Album Name</p>
+            <p class="carddescription">
+              Pritam, Armaan Malik, Atif Aslam and more
+            </p>
+          </div>
+        </div>
+        <h1>Good Evening</h1>
+        <div class="rowcards">
+          <div class="cardcontainer">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix2.jpeg"
+              alt="noImageFound" />
+            <p class="cardname">Album Name</p>
+            <p class="carddescription">
+              Pritam, Armaan Malik, Atif Aslam and more
+            </p>
+          </div>
+        </div>
+        <div class="blank"></div>
+      </div>
+    </div>
+
+    <div class="progressbarcontainer">
+      <div class="musicstreaming">
+        <div class="currentmusic">
+          <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/mix3.jpeg" alt="">
+          <div class="description">
+            <div class="songname">
+              <p>What Jhumka ? ("From rocky")</p>
+            </div>
+            <div class="artist">
+              <p>Artist1,</p>
+              <p>Artist2,</p>
+              <p>Artist3</p>
+            </div>
+          </div>
+          <div class="heart">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/pause_musicbar.png" alt="">
+          </div>
+          <div class="heart">
+            <img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/heart.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="player">
+        <div class="play">
+          <img class="shuffle" src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/shuffle.png"
+            alt="" />
+          <img class="shuffle"
+            src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/previous_musicbar.png" alt="" />
+          <img style="height: 2rem; margin-right: 1rem"
+            src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/play_musicbar.png" alt="" />
+          <img class="shuffle"
+            src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/next_musicbar.png" alt="" />
+          <img class="shuffle" src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/loop.png"
+            alt="" />
+        </div>
+        <div class="progressbar">
+          <span class="timer">0.00</span>
+          <input type="range" min="0" max="100" id="progressbar" step="1" />
+          <span class="timer">0.00</span>
+        </div>
+      </div>
+      <div class="volume">
+        <div class="endbutton"><img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/device.png"
+            alt=""></div>
+        <div class="endbutton"><img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/queue.png"
+            alt=""></div>
+        <div class="endbutton"><img src="./Resources/spotify-clone-html-main/spotify-clone-html-main/assets/music.png"
+            alt=""></div>
+        <div class="endbutton"><input id="volumebar" type="range" min="0" max="100"></div>
+      </div>
+    </div>
+  </div>
+  <!-- <script src="https://kit.fontawesome.com/eb712c79ba.js" crossorigin="anonymous"></script> -->
+  <script src="./javaScript.js"></script>
+</body>
+
+</html>
